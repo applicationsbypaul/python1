@@ -14,8 +14,6 @@ def convert_to_months(years):
     and returns months"""
     months = years * MONTHS_CONVERSION
     return months
-def test():
-    print('Test')
 
 
 if __name__ == '__main__':
