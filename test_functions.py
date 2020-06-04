@@ -1,14 +1,10 @@
 import unittest
-from main import camper_age_input
-
-
-def convert_to_months(x):
-    pass
+from main.camper_age_input import convert_to_months
 
 
 class MyTestCase(unittest.TestCase):
     def test_convert_to_months(self):
-        self.assertEqual(convert_to_months(3), 60)
+        self.assertEqual(convert_to_months(5), 60)
 
 
 if __name__ == '__main__':
