@@ -20,3 +20,4 @@ def convert_to_months(years):
 if __name__ == '__main__':
     age_in_years = int(input('Please enter the age of the infant (1-5): '))
     convert_to_months(age_in_years)
+    convert_to_months(2)
