@@ -6,7 +6,7 @@ Last date modified: 06/3/2020
 Testing the method from the main convert to months
 """
 import unittest
-from main.camper_age_input import convert_to_months
+from camper_age_input import convert_to_months
 
 
 class MyTestCase(unittest.TestCase):
