@@ -11,6 +11,8 @@ MONTHS_CONVERSION = 12
 
 
 def convert_to_months(years):
+    """Converts years that is gathered in main
+    and returns months"""
     months = years * MONTHS_CONVERSION
     return months
 
