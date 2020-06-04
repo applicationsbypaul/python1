@@ -23,4 +23,5 @@ if __name__ == '__main__':
     age_in_years = int(input('Please enter the age of the infant (1-5): '))
     months = convert_to_months(age_in_years)
     print("The infant is " + str(months) + " months old!")
+    test()
     
