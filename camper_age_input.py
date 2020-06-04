@@ -1,8 +1,7 @@
 """
-Program: hello_world.py
+Program: camper_age_input.py
 Author: Paul Ford
-Last date modified: 06/2/2020
-
+Last date modified: 06/3/2020
 The purpose of this program is to say
 Hello World.
 """
@@ -23,5 +22,3 @@ if __name__ == '__main__':
     age_in_years = int(input('Please enter the age of the infant (1-5): '))
     months = convert_to_months(age_in_years)
     print("The infant is " + str(months) + " months old!")
-    test()
-    
