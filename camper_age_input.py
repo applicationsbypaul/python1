@@ -1,3 +1,12 @@
+"""
+Program: hello_world.py
+Author: Paul Ford
+Last date modified: 06/2/2020
+
+The purpose of this program is to say
+Hello World.
+"""
+# Constant variable for months
 MONTHS_CONVERSION = 12
 
 
